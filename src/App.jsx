@@ -9,7 +9,7 @@ function App(){
     <div className=''>
       <div className='w-full flex justify-center md:justify-between items-center'>
       <div className="p-6"><img src={logo}/></div>
-      <div className='px-6 absolute top-[15px] right-0'><p className='font-SpaceMono text-text md:text-[20px] md:visible hidden'>ishadpande16@gmail.com</p></div>
+      <div className='px-6 absolute top-[15px] right-0'><p className='font-SpaceMono text-text md:text-[20px] md:block hidden'>ishadpande16@gmail.com</p></div>
       </div>
       <div className='flex flex-col md:gap-[119px] gap-[10vh] justify-center items-center pt-[10vw] md:pt-0'>
         <div className='border-2 border-text rounded-[10px] w-[90vw] md:w-[40vw] px-6'>
