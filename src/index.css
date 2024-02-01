@@ -1,0 +1,24 @@
+@tailwind components;
+@tailwind base;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: SpaceMono;
+  src: url(./assets/SpaceMono-Bold.ttf);
+}
+
+
+@font-face {
+  font-family: PortSans;
+  src: url(./assets/PortLligatSans-Regular.ttf);
+}
+
+html{
+  background-color: #101010;
+}
+
+.outline-text{
+  -webkit-text-stroke: 1px #F3D6d6;
+  color: transparent;
+}
